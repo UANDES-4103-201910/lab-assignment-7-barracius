@@ -1,3 +1,55 @@
-/* Define your CSS styles here */
-/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
+.flex-container {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
 
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.tab-bksp{
+	background-color: #f1f1f1;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	border-radius: 10px
+}
+
+.button{
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	border-radius: 10px
+}
+
+.action-button{
+	background-color: orange;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+.action-button:active{
+	background-color: green;
+}
+
+.space{
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	flex-grow: 1
+}
